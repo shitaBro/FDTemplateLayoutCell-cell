@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - Masonry
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: cd7008de266570744bb636f22bbaa2454e9b1761
+
+COCOAPODS: 1.2.1

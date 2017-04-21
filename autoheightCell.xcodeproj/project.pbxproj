@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638CD3C71EA895D0006A67A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CD3C61EA895D0006A67A6 /* main.m */; };
+		638CD3CA1EA895D0006A67A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CD3C91EA895D0006A67A6 /* AppDelegate.m */; };
+		638CD3CD1EA895D0006A67A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CD3CC1EA895D0006A67A6 /* ViewController.m */; };
+		638CD3D01EA895D0006A67A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638CD3CE1EA895D0006A67A6 /* Main.storyboard */; };
+		638CD3D21EA895D0006A67A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638CD3D11EA895D0006A67A6 /* Assets.xcassets */; };
+		638CD3D51EA895D0006A67A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638CD3D31EA895D0006A67A6 /* LaunchScreen.storyboard */; };
+		638CD3E01EA895D1006A67A6 /* autoheightCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CD3DF1EA895D1006A67A6 /* autoheightCellTests.m */; };
+		638CD3EB1EA895D1006A67A6 /* autoheightCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CD3EA1EA895D1006A67A6 /* autoheightCellUITests.m */; };
+		63F0BA181EA9974400B1A29F /* myIBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F0BA161EA9974400B1A29F /* myIBCell.m */; };
+		63F0BA191EA9974400B1A29F /* myIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63F0BA171EA9974400B1A29F /* myIBCell.xib */; };
+		63F0BA1C1EA99F0600B1A29F /* myModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F0BA1B1EA99F0600B1A29F /* myModel.m */; };
+		63F0BA1F1EA9B11F00B1A29F /* masonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F0BA1E1EA9B11F00B1A29F /* masonryCell.m */; };
+		A2C7C0AA6E7FE25C194647DD /* Pods_autoheightCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D31DBE198F34DB5B1112D19 /* Pods_autoheightCell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638CD3DC1EA895D1006A67A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638CD3BA1EA895D0006A67A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638CD3C11EA895D0006A67A6;
+			remoteInfo = autoheightCell;
+		};
+		638CD3E71EA895D1006A67A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638CD3BA1EA895D0006A67A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638CD3C11EA895D0006A67A6;
+			remoteInfo = autoheightCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A569EEE4FFBC4904D63B86 /* Pods-autoheightCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoheightCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoheightCell/Pods-autoheightCell.release.xcconfig"; sourceTree = "<group>"; };
+		20CBECD548B1F1AE459D20E6 /* Pods-autoheightCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoheightCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoheightCell/Pods-autoheightCell.debug.xcconfig"; sourceTree = "<group>"; };
+		4D31DBE198F34DB5B1112D19 /* Pods_autoheightCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoheightCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638CD3C21EA895D0006A67A6 /* autoheightCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoheightCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		638CD3C61EA895D0006A67A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		638CD3C81EA895D0006A67A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		638CD3C91EA895D0006A67A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		638CD3CB1EA895D0006A67A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		638CD3CC1EA895D0006A67A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		638CD3CF1EA895D0006A67A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		638CD3D11EA895D0006A67A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		638CD3D41EA895D0006A67A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		638CD3D61EA895D0006A67A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638CD3DB1EA895D0006A67A6 /* autoheightCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoheightCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		638CD3DF1EA895D1006A67A6 /* autoheightCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoheightCellTests.m; sourceTree = "<group>"; };
+		638CD3E11EA895D1006A67A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638CD3E61EA895D1006A67A6 /* autoheightCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoheightCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		638CD3EA1EA895D1006A67A6 /* autoheightCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoheightCellUITests.m; sourceTree = "<group>"; };
+		638CD3EC1EA895D1006A67A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F0BA151EA9974400B1A29F /* myIBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myIBCell.h; sourceTree = "<group>"; };
+		63F0BA161EA9974400B1A29F /* myIBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myIBCell.m; sourceTree = "<group>"; };
+		63F0BA171EA9974400B1A29F /* myIBCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myIBCell.xib; sourceTree = "<group>"; };
+		63F0BA1A1EA99F0600B1A29F /* myModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myModel.h; sourceTree = "<group>"; };
+		63F0BA1B1EA99F0600B1A29F /* myModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myModel.m; sourceTree = "<group>"; };
+		63F0BA1D1EA9B11F00B1A29F /* masonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masonryCell.h; sourceTree = "<group>"; };
+		63F0BA1E1EA9B11F00B1A29F /* masonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masonryCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638CD3BF1EA895D0006A67A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C7C0AA6E7FE25C194647DD /* Pods_autoheightCell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3D81EA895D0006A67A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3E31EA895D1006A67A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6112E29A2141A998707B352F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20CBECD548B1F1AE459D20E6 /* Pods-autoheightCell.debug.xcconfig */,
+				03A569EEE4FFBC4904D63B86 /* Pods-autoheightCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		638CD3B91EA895D0006A67A6 = {
+			isa = PBXGroup;
+			children = (
+				638CD3C41EA895D0006A67A6 /* autoheightCell */,
+				638CD3DE1EA895D1006A67A6 /* autoheightCellTests */,
+				638CD3E91EA895D1006A67A6 /* autoheightCellUITests */,
+				638CD3C31EA895D0006A67A6 /* Products */,
+				6112E29A2141A998707B352F /* Pods */,
+				F4232BE8C63F159DE1EA4F41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		638CD3C31EA895D0006A67A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638CD3C21EA895D0006A67A6 /* autoheightCell.app */,
+				638CD3DB1EA895D0006A67A6 /* autoheightCellTests.xctest */,
+				638CD3E61EA895D1006A67A6 /* autoheightCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638CD3C41EA895D0006A67A6 /* autoheightCell */ = {
+			isa = PBXGroup;
+			children = (
+				638CD3C81EA895D0006A67A6 /* AppDelegate.h */,
+				638CD3C91EA895D0006A67A6 /* AppDelegate.m */,
+				638CD3CB1EA895D0006A67A6 /* ViewController.h */,
+				638CD3CC1EA895D0006A67A6 /* ViewController.m */,
+				63F0BA151EA9974400B1A29F /* myIBCell.h */,
+				63F0BA161EA9974400B1A29F /* myIBCell.m */,
+				63F0BA171EA9974400B1A29F /* myIBCell.xib */,
+				63F0BA1A1EA99F0600B1A29F /* myModel.h */,
+				63F0BA1B1EA99F0600B1A29F /* myModel.m */,
+				63F0BA1D1EA9B11F00B1A29F /* masonryCell.h */,
+				63F0BA1E1EA9B11F00B1A29F /* masonryCell.m */,
+				638CD3CE1EA895D0006A67A6 /* Main.storyboard */,
+				638CD3D11EA895D0006A67A6 /* Assets.xcassets */,
+				638CD3D31EA895D0006A67A6 /* LaunchScreen.storyboard */,
+				638CD3D61EA895D0006A67A6 /* Info.plist */,
+				638CD3C51EA895D0006A67A6 /* Supporting Files */,
+			);
+			path = autoheightCell;
+			sourceTree = "<group>";
+		};
+		638CD3C51EA895D0006A67A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				638CD3C61EA895D0006A67A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		638CD3DE1EA895D1006A67A6 /* autoheightCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				638CD3DF1EA895D1006A67A6 /* autoheightCellTests.m */,
+				638CD3E11EA895D1006A67A6 /* Info.plist */,
+			);
+			path = autoheightCellTests;
+			sourceTree = "<group>";
+		};
+		638CD3E91EA895D1006A67A6 /* autoheightCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				638CD3EA1EA895D1006A67A6 /* autoheightCellUITests.m */,
+				638CD3EC1EA895D1006A67A6 /* Info.plist */,
+			);
+			path = autoheightCellUITests;
+			sourceTree = "<group>";
+		};
+		F4232BE8C63F159DE1EA4F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D31DBE198F34DB5B1112D19 /* Pods_autoheightCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638CD3C11EA895D0006A67A6 /* autoheightCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638CD3EF1EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCell" */;
+			buildPhases = (
+				CC0C2AA57DF5B5A7D8A8CD12 /* [CP] Check Pods Manifest.lock */,
+				638CD3BE1EA895D0006A67A6 /* Sources */,
+				638CD3BF1EA895D0006A67A6 /* Frameworks */,
+				638CD3C01EA895D0006A67A6 /* Resources */,
+				94AA9F9502F3B5A7DF24810E /* [CP] Embed Pods Frameworks */,
+				EE160AA835A97289F99CEE71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoheightCell;
+			productName = autoheightCell;
+			productReference = 638CD3C21EA895D0006A67A6 /* autoheightCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		638CD3DA1EA895D0006A67A6 /* autoheightCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638CD3F21EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCellTests" */;
+			buildPhases = (
+				638CD3D71EA895D0006A67A6 /* Sources */,
+				638CD3D81EA895D0006A67A6 /* Frameworks */,
+				638CD3D91EA895D0006A67A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638CD3DD1EA895D1006A67A6 /* PBXTargetDependency */,
+			);
+			name = autoheightCellTests;
+			productName = autoheightCellTests;
+			productReference = 638CD3DB1EA895D0006A67A6 /* autoheightCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		638CD3E51EA895D1006A67A6 /* autoheightCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638CD3F51EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCellUITests" */;
+			buildPhases = (
+				638CD3E21EA895D1006A67A6 /* Sources */,
+				638CD3E31EA895D1006A67A6 /* Frameworks */,
+				638CD3E41EA895D1006A67A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638CD3E81EA895D1006A67A6 /* PBXTargetDependency */,
+			);
+			name = autoheightCellUITests;
+			productName = autoheightCellUITests;
+			productReference = 638CD3E61EA895D1006A67A6 /* autoheightCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638CD3BA1EA895D0006A67A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jiang;
+				TargetAttributes = {
+					638CD3C11EA895D0006A67A6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					638CD3DA1EA895D0006A67A6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 638CD3C11EA895D0006A67A6;
+					};
+					638CD3E51EA895D1006A67A6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 638CD3C11EA895D0006A67A6;
+					};
+				};
+			};
+			buildConfigurationList = 638CD3BD1EA895D0006A67A6 /* Build configuration list for PBXProject "autoheightCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638CD3B91EA895D0006A67A6;
+			productRefGroup = 638CD3C31EA895D0006A67A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638CD3C11EA895D0006A67A6 /* autoheightCell */,
+				638CD3DA1EA895D0006A67A6 /* autoheightCellTests */,
+				638CD3E51EA895D1006A67A6 /* autoheightCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638CD3C01EA895D0006A67A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638CD3D51EA895D0006A67A6 /* LaunchScreen.storyboard in Resources */,
+				638CD3D21EA895D0006A67A6 /* Assets.xcassets in Resources */,
+				63F0BA191EA9974400B1A29F /* myIBCell.xib in Resources */,
+				638CD3D01EA895D0006A67A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3D91EA895D0006A67A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3E41EA895D1006A67A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94AA9F9502F3B5A7DF24810E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoheightCell/Pods-autoheightCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0C2AA57DF5B5A7D8A8CD12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE160AA835A97289F99CEE71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoheightCell/Pods-autoheightCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638CD3BE1EA895D0006A67A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638CD3CD1EA895D0006A67A6 /* ViewController.m in Sources */,
+				63F0BA1F1EA9B11F00B1A29F /* masonryCell.m in Sources */,
+				638CD3CA1EA895D0006A67A6 /* AppDelegate.m in Sources */,
+				63F0BA181EA9974400B1A29F /* myIBCell.m in Sources */,
+				638CD3C71EA895D0006A67A6 /* main.m in Sources */,
+				63F0BA1C1EA99F0600B1A29F /* myModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3D71EA895D0006A67A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638CD3E01EA895D1006A67A6 /* autoheightCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638CD3E21EA895D1006A67A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638CD3EB1EA895D1006A67A6 /* autoheightCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		638CD3DD1EA895D1006A67A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638CD3C11EA895D0006A67A6 /* autoheightCell */;
+			targetProxy = 638CD3DC1EA895D1006A67A6 /* PBXContainerItemProxy */;
+		};
+		638CD3E81EA895D1006A67A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638CD3C11EA895D0006A67A6 /* autoheightCell */;
+			targetProxy = 638CD3E71EA895D1006A67A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		638CD3CE1EA895D0006A67A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638CD3CF1EA895D0006A67A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		638CD3D31EA895D0006A67A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638CD3D41EA895D0006A67A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		638CD3ED1EA895D1006A67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		638CD3EE1EA895D1006A67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638CD3F01EA895D1006A67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CBECD548B1F1AE459D20E6 /* Pods-autoheightCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = autoheightCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		638CD3F11EA895D1006A67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A569EEE4FFBC4904D63B86 /* Pods-autoheightCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = autoheightCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		638CD3F31EA895D1006A67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = autoheightCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoheightCell.app/autoheightCell";
+			};
+			name = Debug;
+		};
+		638CD3F41EA895D1006A67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = autoheightCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoheightCell.app/autoheightCell";
+			};
+			name = Release;
+		};
+		638CD3F61EA895D1006A67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = autoheightCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autoheightCell;
+			};
+			name = Debug;
+		};
+		638CD3F71EA895D1006A67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = autoheightCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjw.autoheightCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autoheightCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638CD3BD1EA895D0006A67A6 /* Build configuration list for PBXProject "autoheightCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638CD3ED1EA895D1006A67A6 /* Debug */,
+				638CD3EE1EA895D1006A67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638CD3EF1EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638CD3F01EA895D1006A67A6 /* Debug */,
+				638CD3F11EA895D1006A67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638CD3F21EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638CD3F31EA895D1006A67A6 /* Debug */,
+				638CD3F41EA895D1006A67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638CD3F51EA895D1006A67A6 /* Build configuration list for PBXNativeTarget "autoheightCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638CD3F61EA895D1006A67A6 /* Debug */,
+				638CD3F71EA895D1006A67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638CD3BA1EA895D0006A67A6 /* Project object */;
+}
